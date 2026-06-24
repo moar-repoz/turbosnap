@@ -11,3 +11,5 @@ Currently, two official plugins are available:
 
 Nonvisual change
 lastofallchange
+
+Nothing changed here
