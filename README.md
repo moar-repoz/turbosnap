@@ -26,3 +26,5 @@ Non touched
 nonvis
 
 vizzula
+
+jackfruit
