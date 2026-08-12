@@ -19,7 +19,7 @@ export const Page = () => {
       <section className="storybook-page">
         <h2>Pagez in Storybook</h2>
         <p>
-          We recommsend building UIs with a{' '}
+          We rescommsend building UIs with a{' '}
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
             <strong>component-driven</strong>
           </a>{' '}
