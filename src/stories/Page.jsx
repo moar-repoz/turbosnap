@@ -17,7 +17,7 @@ export const Page = () => {
       />
   
       <section className="storybook-page">
-        <h2>Pagezs in Storybook</h2>
+        <h2>Pasgezs in Storybook</h2>
         <p>
           We rescommsend building UIs with a{' '}
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
