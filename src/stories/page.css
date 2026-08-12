@@ -8,12 +8,14 @@
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* comment */
+
 .storybook-page h2 {
   display: inline-block;
   vertical-align: top;
   margin: 0 0 4px;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 83px;
   line-height: 1;
 }
 
