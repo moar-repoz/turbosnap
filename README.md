@@ -32,3 +32,5 @@ lki
 uzew
 
 Amaze
+
+New browser
