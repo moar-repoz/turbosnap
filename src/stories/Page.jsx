@@ -3,8 +3,34 @@ import React from 'react';
 import { Header } from './Header';
 import './page.css';
 
+const COLOR_NAMES = [
+  'red',
+  'orange',
+  'yellow',
+  'green',
+  'blue',
+  'indigo',
+  'violet',
+  'pink',
+  'cyan',
+  'magenta',
+];
+
+function colorFromMilliseconds() {
+  const hundred = Math.floor((Date.now() % 1000) / 100);
+  return COLOR_NAMES[hundred];
+}
+
 export const Page = () => {
   const [user, setUser] = React.useState();
+  const [colorName, setColorName] = React.useState(colorFromMilliseconds);
+
+  React.useEffect(() => {
+    const id = setInterval(() => {
+      setColorName(colorFromMilliseconds());
+    }, 100);
+    return () => clearInterval(id);
+  }, []);
 
   return (
     <article>
@@ -14,9 +40,10 @@ export const Page = () => {
         onLogout={() => setUser(undefined)}
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
-
+  
       <section className="storybook-page">
         <h2>Pages in Storybook</h2>
+        <p>{colorName}</p>
         <p>
           We recommend building UIs with a{' '}
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
