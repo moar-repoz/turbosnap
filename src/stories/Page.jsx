@@ -6,7 +6,7 @@ import './page.css';
 export const Page = () => {
   const [user, setUser] = React.useState();
 
-
+throw new Error('oops');
   return (
     <article>
       <Header
