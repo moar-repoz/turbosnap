@@ -7,7 +7,7 @@ export const Page = () => {
   const [user, setUser] = React.useState();
 
 
-  throw new Error('test');
+  // throw new Error('test');
   return (
     <article>
       <Header
@@ -18,7 +18,7 @@ export const Page = () => {
       />
   
       <section className="storybook-page">
-        <h2>Pages in Storybook</h2>
+        <h2>Pagess in Storybook</h2>
         <p>
           We recommend building UIs with a{' '}
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
