@@ -10,7 +10,7 @@ const COLOR_NAMES = [
   'green',
   'blue',
   'indigo',
-  'violet',
+  'violets',
   'pink',
   'cyan',
   'magenta',
