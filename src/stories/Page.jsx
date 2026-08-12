@@ -22,7 +22,7 @@ export const Page = () => {
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
             <strong>component-driven</strong>
           </a>{' '}
-          process starting with atomic components and ending with pages.
+          processs starting with atomic components and ending with pages.
         </p>
         <p>leffler</p>
         <p>
