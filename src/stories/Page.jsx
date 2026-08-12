@@ -6,7 +6,8 @@ import './page.css';
 export const Page = () => {
   const [user, setUser] = React.useState();
 
-  
+
+  throw new Error('testa');
   return (
     <article>
       <Header
@@ -23,7 +24,7 @@ export const Page = () => {
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
             <strong>component-driven</strong>
           </a>{' '}
-          process startisng with atomic components and ending with pages.
+          process starting with atomic components and ending with pages.
         </p>
         <p>leffler</p>
         <p>
