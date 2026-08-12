@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Header } from './Header';
 import './page.css';
+// just a comment
 
 export const Page = () => {
   const [user, setUser] = React.useState();
