@@ -3,34 +3,8 @@ import React from 'react';
 import { Header } from './Header';
 import './page.css';
 
-const COLOR_NAMES = [
-  'red',
-  'orange',
-  'yellow',
-  'green',
-  'blue',
-  'indigo',
-  'violets',
-  'pink',
-  'cyan',
-  'magenta',
-];
-
-function colorFromMilliseconds() {
-  const hundred = Math.floor((Date.now() % 1000) / 100);
-  return COLOR_NAMES[hundred];
-}
-
 export const Page = () => {
   const [user, setUser] = React.useState();
-  const [colorName, setColorName] = React.useState(colorFromMilliseconds);
-
-  React.useEffect(() => {
-    const id = setInterval(() => {
-      setColorName(colorFromMilliseconds());
-    }, 100);
-    return () => clearInterval(id);
-  }, []);
 
   return (
     <article>
@@ -43,7 +17,6 @@ export const Page = () => {
   
       <section className="storybook-page">
         <h2>Pages in Storybook</h2>
-        <p>{colorName}</p>
         <p>
           We recommend building UIs with a{' '}
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
@@ -51,6 +24,7 @@ export const Page = () => {
           </a>{' '}
           process starting with atomic components and ending with pages.
         </p>
+        <p>leffler</p>
         <p>
           Render pages with mock data. This makes it easy to build and review page states without
           needing to navigate to them in your app. Here are some handy patterns for managing page
