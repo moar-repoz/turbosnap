@@ -30,3 +30,5 @@ vizzula
 lki
 
 uzew
+
+Amaze
