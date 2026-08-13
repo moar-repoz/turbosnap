@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import './button.css';
-// comment change only
+// comment change onlys
 
 /** Primary UI component for user interaction */
 export const Button = ({
