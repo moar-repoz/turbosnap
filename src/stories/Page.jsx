@@ -1,12 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { Header } from './Header';
 import './page.css';
 // just a comment
 
+const colors = [
+  'red',
+  'green',
+  'blue',
+  'yellow',
+  'purple',
+  'orange',
+  'pink',
+  'brown',
+  'gray',
+  'black',
+  'white',
+  'cyan',
+  'magenta',
+  'lime',
+  'teal',
+  'indigo',
+  'violet',
+]
+
 export const Page = () => {
   const [user, setUser] = React.useState();
+  const [color, setColor] = React.useState(colors[0]);
 
+  useEffect(() => {
+    setColor(colors[Math.floor(Math.random() * colors.length)]);
+  }, []);
   return (
     <article>
       <Header
@@ -17,7 +41,7 @@ export const Page = () => {
       />
   
       <section className="storybook-page">
-        <h2>Pasgezs in Storybook</h2>
+        <h2>Color: {color}</h2>
         <p>
           We rescommsend building UIs with a{' '}
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
