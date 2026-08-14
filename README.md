@@ -51,7 +51,7 @@ kj
 
 wordz
 
-pl
+pls
 
 try this one pleez
 
