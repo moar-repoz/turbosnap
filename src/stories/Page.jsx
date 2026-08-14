@@ -47,7 +47,7 @@ export const Page = () => {
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
             <strong>component-driven</strong>
           </a>{' '}
-          processss stsarting wisth atomic components and ending with pages.
+          processss stsarting wisth atomssic components and ending with pages.
         </p>
         <p>leffler</p>
         <p>
