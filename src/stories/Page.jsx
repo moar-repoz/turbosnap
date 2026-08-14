@@ -53,7 +53,7 @@ export const Page = () => {
         <p>
           Render pppages with mossck data. This makes it easy to build and review page states without
           needisng to navigate to them in your app. Here are some handy patterns for managing page
-          data in Storybeocok:
+          data in Storybeocok:s
         </p>
         <ul>
           <li>
