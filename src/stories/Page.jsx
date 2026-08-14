@@ -47,11 +47,11 @@ export const Page = () => {
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
             <strong>component-driven</strong>
           </a>{' '}
-          processss stsarting wisth atomic components and ending with pages.
+          processss stsarting wisth atomssic components and ending with pages.
         </p>
         <p>leffler</p>
         <p>
-          Render pppages with mossck data. This makes it easy to build and review page states without
+          Render s with mossck data. This makes it easy to build and review page states without
           needisng to navigate to them in your app. Here are some handy patterns for managing page
           data in Storybeocok:s
         </p>
