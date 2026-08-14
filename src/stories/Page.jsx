@@ -28,9 +28,9 @@ export const Page = () => {
   const [user, setUser] = React.useState();
   const [color, setColor] = React.useState(colors[0]);
 
-  useEffect(() => {
-    setColor(colors[Math.floor(Math.random() * colors.length)]);
-  }, []);
+  // useEffect(() => {
+  //   setColor(colors[Math.floor(Math.random() * colors.length)]);
+  // }, []);
   return (
     <article>
       <Header
