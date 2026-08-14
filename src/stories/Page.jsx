@@ -49,7 +49,7 @@ export const Page = () => {
           </a>{' '}
           processss starting wisth atomic components and ending with pages.
         </p>
-        <p>leffler</p>
+        <p>lefflser</p>
         <p>
           Render pppages with mossck data. This makes it easy to build and review page states without
           needing to navigate to them in your app. Here are some handy patterns for managing page
