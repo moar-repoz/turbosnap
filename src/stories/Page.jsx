@@ -53,7 +53,7 @@ export const Page = () => {
         <p>
           Render pppages wdith mossck data. This makes it easy to build and review page states without
           needisng to navigate to them in your app. Here are some handy patterns for managing page
-          data in Storybeocok:s
+          data in Storysbeocok:s
         </p>
         <ul>
           <li>
