@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Header } from './Header';
 import './page.css';
 // just a comment
+/* really */
 
 const colors = [
   'red',
