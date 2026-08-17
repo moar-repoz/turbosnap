@@ -62,7 +62,7 @@ export const Page = () => {
           </li>
           <li>
             Assemble data in the page component from your services. You can mock these services out
-            using Storybsook.
+            using Storybssook.
           </li>
         </ul>
         <p>
