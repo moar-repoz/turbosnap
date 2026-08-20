@@ -21,7 +21,7 @@ export const Button = ({
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
-      {label}sssnailssssssssswss4stssrhsts
+      {label}sssnailsssssssssswss4stssrhsts
     </button>
   );
 };
