@@ -10,6 +10,7 @@ Currently, two official plugins are available:a
 # turbosnap
 
 vite
+kj
 
 germany
 
