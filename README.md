@@ -11,6 +11,8 @@ Currently, two official plugins are available:a
 
 vite
 
+dang
+
 Just changed this
 
 germany
