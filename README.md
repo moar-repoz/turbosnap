@@ -9,6 +9,8 @@ Currently, two official plugins are available:a
 
 # turbosnap
 
+Only nonvisual changes
+
 vite
 
 dang
