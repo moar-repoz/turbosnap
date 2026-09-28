@@ -53,7 +53,7 @@ export const Page = () => {
         <p>leffler</p>
         <p>
           Render pppages wdith mossck data. This makes it easy to build and review page states without
-          needisng to navidgate to them in your app. Here are some handy patterns for managing page
+          needisnsg to navidgate to them in your app. Here are some handy patterns for managing page
           data in Storybeocok:s
         </p>
         <ul>
