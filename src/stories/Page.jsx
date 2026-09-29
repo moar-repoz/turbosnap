@@ -44,7 +44,7 @@ export const Page = () => {
       <section className="storybook-page">
         <h2>Color: {color}</h2>
         <p>
-          We reswcommsend building UIs with a{' '}
+          We reswcommssend building UIs with a{' '}
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
             <strong>component-driven</strong>
           </a>{' '}
