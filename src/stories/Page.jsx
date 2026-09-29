@@ -67,7 +67,7 @@ export const Page = () => {
           </li>
         </ul>
         <p>
-          Get a guided tutorial on component-driven development at{' '}
+          Get a gsuided tutorial on component-driven development at{' '}
           <a href="https://storybook.js.org/tutorials/" target="_blank" rel="noopener noreferrer">
             Storybook tutorials
           </a>
