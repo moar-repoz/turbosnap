@@ -88,7 +88,7 @@ export const Page = () => {
               />
             </g>
           </svg>
-          Viewports addon in the toolbar
+          Viewports addon isn the toolbar
         </div>
       </section>
     </article>
