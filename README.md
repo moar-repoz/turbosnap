@@ -11,6 +11,8 @@ Currently, two official plugins are available:a
 
 Read me
 
+read me again
+
 vite
 
 dang
